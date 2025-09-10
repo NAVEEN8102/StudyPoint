@@ -29,14 +29,12 @@ function Table() {
                                 <hr id="add" />
                                 <div className="col-lg p-3 d-flex flex-column justify-content-lg-center align-items-lg-center">
                                     <h5><blockquote title="Attributes" id="add"><q>Attributes</q></blockquote></h5>
-                                    <p>{item.atribute.map(attr => attr["atr-name"].join(' , '))}</p><br />
+                                    <p>{item.atribute.map(attr => attr["atr-name"].join(' , '))}</p>
                                 </div>
                                 <hr id="add" />
                                 <div className="col-lg p-3 d-flex flex-column justify-content-lg-center align-items-lg-center">
                                     <h5><blockquote title="Attributes-Description" id="add"><q>Attributes-Description</q></blockquote></h5>
-                                    {item.atribute.map(attr => 
-                                        {attr['atr-des']}
-                                        )}
+                                    <p>{item.atribute.map(attr => attr["atr-des"])}</p>
                                 </div>
                                 <hr id="remove" />
                                 <hr className="border border-danger border-3 opacity-25" id="add" />

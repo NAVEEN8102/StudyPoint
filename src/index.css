@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.coming-soon-img {
+  max-width: 100%;
+  height: 70vh;
+  background-blend-mode: multiply;
+  ;
+}
+
+#add {
+  display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .coming-soon-img {
+    height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #remove {
+    display: none;
+  }
+
+  #add {
+    display: block !important;
+  }
+}
